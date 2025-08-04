@@ -1,3 +1,2 @@
 #!/bin/bash
-. /etc/os-release
-echo ${ID^}
+. /etc/os-release; echo ${ID^}
