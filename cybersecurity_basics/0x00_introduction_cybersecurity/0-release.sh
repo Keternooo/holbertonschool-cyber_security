@@ -1,2 +1,2 @@
 #!/bin/bash
-. /etc/os-release | cat <<< $ID
+lsb_release -is
