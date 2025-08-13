@@ -1,3 +1,3 @@
 #!/bin/bash
-netstat -tulpn
+netstat -tulnp
 
