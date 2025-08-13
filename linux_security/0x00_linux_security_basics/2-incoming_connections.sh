@@ -1,3 +1,2 @@
 #!/bin/bash
-
-iptables -A INPUT -p tcp --dport 80 -J ACCEPT
+sudo ufw allow proto tcp to any port 80
