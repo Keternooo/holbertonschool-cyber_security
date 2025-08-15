@@ -1,3 +1,2 @@
 #!/bin/bash
-
-dig +noall +answer +multiline "$1" any
+dig +noall +answer $1 any
