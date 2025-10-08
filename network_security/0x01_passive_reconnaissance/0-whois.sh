@@ -1,2 +1,2 @@
-#!/bin/bash 
-whois "$1" | grep -E "Registrant|Admin|Tech"| grep -v "If you wish to contact"| sed 's/: /,/g' > "$1".csv
+#!/bin/bash
+whois "$1" | awk -F': ' '/^(Registrant|Admin|Tech) / {print $1 "," $2}' > "$1.csv"
