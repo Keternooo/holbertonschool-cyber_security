@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Doc for the script:
+Documentation:
 Find and replace a string inside the heap of a running process.
 """
 
